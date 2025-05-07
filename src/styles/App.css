@@ -1,0 +1,278 @@
+
+
+/***********Hero **************/
+
+.hero-image {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.hero-heading-image img {
+  width: 180px;
+  height: 75px;
+  border-radius: 75px;
+}
+.hero-text h2,
+.hero-heading-image h2 {
+  font-family: var(--ff-secondary);
+  font-size: 80px;
+  line-height: 1.3em;
+}
+.heading-num h2 {
+  font-family: var(--ff-secondary);
+  font-size: 60px;
+  color: var(--clr-grey-0);
+}
+.heading-num span {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.heading-p {
+  font-size: 16px;
+  line-height: 1.8em;
+}
+.heading-two {
+  width: 90%;
+  margin: 5% auto;
+  
+}
+
+/***********Best Work**************/
+
+.feature-item img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  object-position: center center;
+}
+.feature-item h5{
+  font-family: var(--ff-secondary);
+  font-size: 24px;
+  line-height: 1.3em;
+
+}
+.feature-desc{
+    font-size: 16px;
+    line-height: 1.8em;
+}
+.bestwork-img-wrapper{
+  background: url(/home/bestwork/bestwork.webp) center/cover no-repeat;
+}
+
+
+/******* video show *******/
+
+
+.custom-image-section{
+  height: auto;width: 100%;
+}
+.image-wrapper img{
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  object-position: center center;
+}
+/* ******Contact US******** */
+.contact-heading
+{
+  font-family: var(--ff-secondary);
+  font-size: 80px;
+  line-height: 1.3em;
+  text-align: center;
+}
+  .contact-form{
+      font-size: 16px;
+      font-weight: 400;
+    line-height: 1.5em;
+    padding: 10px
+  }
+.contact-col-right {
+  background-color:#111111;
+  border: 1px solid rgba(255, 255, 255, 0.067);
+  transition: border-color 0.4s linear;
+  -webkit-transition: border-color 0.4s linear;
+  -moz-transition: border-color 0.4s linear;
+  -ms-transition: border-color 0.4s linear;
+  -o-transition: border-color 0.4s linear;
+}
+.contact-col-right:hover {
+  border: 1px solid #BC9B73;
+  transition: border-color 0.4s linear;
+  -webkit-transition: border-color 0.4s linear;
+  -moz-transition: border-color 0.4s linear;
+  -ms-transition: border-color 0.4s linear;
+  -o-transition: border-color 0.4s linear;
+}
+ .infop-4{
+  background-color: #BC9B73;
+  height: 100px;
+
+}
+.infop-4 h5{
+
+    font-family: var(--ff-secondary);
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.3em;
+
+}
+ .info-body  h6{
+  font-family: "Jost", Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3em;
+
+  }
+  .info-body small{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #999999;
+  }
+
+.info-body {
+  background-color:#111111;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.icon-box {
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #000 !important;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 10px;
+}
+.icon-box svg{
+  width: 20px;
+  height: 20px;
+  
+}
+
+.overlap-row {
+  position: relative;
+  top: -140px; 
+
+}
+.overlap{
+  position: relative;
+  top: 10px; 
+
+}
+.overlap-2{
+  margin-top: 30px;
+
+}
+/* 📱 Responsive Design */
+@media (max-width: 991.98px) {
+  .hero-text h2,
+  .hero-heading-image h2 {
+    font-size: 40px;
+  }
+
+  .heading-num h2 {
+    font-size: 40px;
+  }
+
+  .heading-two {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: start;
+  }
+
+  .heading-p {
+    text-align: center;
+  }
+
+  
+  .feature-item h5{
+    font-size: 18px;
+  
+  }
+  .feature-item p{
+      font-size: 10px;
+      
+  }
+  .bestwork-img-wrapper{
+    width: 100%;
+  }
+  .overlap-row {
+    position: relative;
+    top: 0px; 
+  }
+  .overlap{
+    position: relative;
+    top: 0px; 
+  }
+  .overlap-2{
+    margin-top: 0px;
+  
+  }
+
+}
+
+@media (max-width: 576px) {
+  
+  .hero-text h2,
+  .hero-heading-image h2 {
+    font-size: 32px;
+  }
+
+  .heading-num h2 {
+    font-size: 32px;
+  }
+
+  .hero-heading-image img {
+    width: 140px;
+    height: 60px;
+  }
+  .overlap-row {
+    position: relative;
+    top: 0px; 
+  }
+  .overlap{
+    position: relative;
+    top: 0px; 
+  }
+  .overlap-2{
+    margin-top: 0px;
+  
+  }
+  .infop-4{
+    background-color: #BC9B73;
+    height: 100px;
+  
+  }
+  .infop-4 h5{
+  
+      font-family: var(--ff-secondary);
+      font-size: 20px;
+   
+  
+  }
+   .info-body  h6{
+    font-size: 18px;
+   
+  
+    }
+    .info-body small{
+      font-size: 14px;
+      
+    }
+  
+}
+
+
